@@ -17,4 +17,4 @@ Playing
 
 Run main.py and it would automatically run the model and save the final result as a jpg file.
 
-![alt text](https://github.com/Yannibigeyes/RRT---Motion-planning-/edit/main/RRT_50Hz.jpeg)
+![alt text](https://github.com/Yannibigeyes/RRT---Motion-planning-/blob/main/RRT_50Hz.jpeg)
