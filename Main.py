@@ -96,21 +96,21 @@ class Tree:
         return output
         
 # read map
-obst = pd.read_csv('obstacles.txt', sep='\t', header = None)
+obst = pd.read_csv('env/obstacles.txt', sep='\t', header = None)
 N, _ = obst.shape
 Obst = np.zeros([N,3],dtype = np.int)
 for i in range(N):
     temp = obst[0][i].split(',')
     Obst[i,:] = temp[:]
 
-start = pd.read_csv('start.txt', sep='\t', header = None)
+start = pd.read_csv('env/start.txt', sep='\t', header = None)
 N, _ = start.shape
 Start = np.zeros([N,3],dtype = np.int)
 for i in range(N):
     temp = start[0][i].split(',')
     Start[i,:] = temp[:]
 
-goal = pd.read_csv('goal.txt', sep='\t', header = None)
+goal = pd.read_csv('env/goal.txt', sep='\t', header = None)
 N, _ = goal.shape
 Goal = np.zeros([N,2],dtype = np.int)
 for i in range(N):
