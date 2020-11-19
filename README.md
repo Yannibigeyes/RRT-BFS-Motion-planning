@@ -10,4 +10,4 @@ Pygame
 ## Getting started
 Run main.py and it would automatically run RRT model to explore paths to reach out the goal and then apply BFS (visited-list) to output the shortest path. 
 
-![alt text](https://github.com/Yannibigeyes/RRT---Motion-planning-/blob/main/RRT_50Hz.jpeg)
+![alt text](https://github.com/Yannibigeyes/RRT-BFS-Motion-planning/blob/main/RRT_50Hz.jpeg)
